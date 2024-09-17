@@ -18,7 +18,7 @@ namespace AbstractionProject
     {
         public override void DepartmentInfo() // Abstract method overridden for Software Developer
         {
-            Console.WriteLine("I am working as a Software Developer");
+            Console.WriteLine("I am {Name} {Surname}, working as a Software Developer");
         }
     }
 
@@ -26,7 +26,7 @@ namespace AbstractionProject
     {
         public override void DepartmentInfo() // Abstract method overridden for Project Manager
         {
-            Console.WriteLine("I am working as a Project Manager");
+            Console.WriteLine("I am {Name} {Surname}, working as a Project Manager");
         }
     }
 
@@ -34,7 +34,7 @@ namespace AbstractionProject
     {
         public override void DepartmentInfo() // Abstract method overridden for Sales Representative
         {
-            Console.WriteLine("I am working as a Sales Representative");
+            Console.WriteLine("I am {Name} {Surname}, working as a Sales Representative");
         }
     }
 }
